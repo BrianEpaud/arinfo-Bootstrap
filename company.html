@@ -1,0 +1,214 @@
+<!-- On reconfigure la page HTML avec le DOCTYPE + HEADLINKS + SCRIPT BOOTSTRAP + NAVBAR + FOOTER -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arinfo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="./img/logo-icone.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-3">
+        <div class="container">
+            <a href="/index.html" class="navbar-brand">
+                <img src="/img/logo2.png" width="150px" alt="">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="index.html" class="nav-link text-uppercase px-3">Accueil</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="company.html" class="nav-link text-uppercase px-3">Le centre de formation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase px-3">Nos Formations</a>
+                    </li>
+                    <li class="nav-item border-left">
+                        <a href="#"
+                            class="nav-link text-uppercase px-3 bg-info rounded text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER  -->
+    <!-- MISE EN PLACE DU HEADER AVEC UNE HAUTEUR DEFINIT ET DU STYLE CSS  -->
+    <header id="header">
+
+        <div class="container ">
+            <div class="row h-100">
+                <!-- on ajoute m-auto pour centrer le bloc  -->
+                <div class="col-md-6 offset-md-3 align-self-center header text-center text-white rounded p-2">
+                    <h1>A propos d'ARINFO</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, porro!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- A PROPOS  -->
+    <!-- TIMELINE  AVEC BADGE  -->
+
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="text-center">
+
+                        <h1>Qui sommes-nous?</h1>
+                        <div class="lead">Une entreprise en constanste évolution !</div>
+                    </div>
+
+                    <ul>
+                        <li class=" d-flex mt-5 mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2018</span>
+                            Arinfo prépare d’ores et déjà les formations de demain, notamment via la Réalité
+                            Virtuelle. Plus d’infos sur Openspace3d.com.
+                        </li>
+                        <li class="d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2017</span>
+
+                            Labellisation ISQ-OPQF et Grande Ecole du Numérique. Référencement Datadock.
+                            Lancement des Pop’Up Centres sur toute la France.
+                        </li>
+                        <li class=" d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2016</span>
+                            Ouverture d'un nouveau centre à St Nazaire (44).
+                        </li>
+                        <li class=" d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2014</span>
+                            Ouverture d'un nouveau centre à La Roche sur Yon (85).
+                        </li>
+                        <li class=" d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2012</span>
+                            Ouverture d'un nouveau centre au Mans (72).
+                        </li>
+                        <li class=" d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2007</span>
+                            ARINFO met en place de nouvelles formations dans les domaines du Web et de la PAO.
+                        </li>
+                        <li class=" d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">2002</span>
+                            Lancement de la plateforme Formao. Un nouvel outil pédago-gique sur mesure au service des
+                            stagiaires.
+                        </li>
+                        <li class=" d-flex mb-4 align-items-center">
+                            <span class="badge badge-info badge-pill mr-5">1992</span>
+                            Création d’ARINFO par 2 architectes enseignant à l’Ecole d’Architecture de Nantes.
+                        </li>
+                    </ul>
+                </div>
+                <!-- AJOUT D'UNE IMAGE ALEATOIRE AVEC UNSPLASH  -->
+                <div class="col-md-6 d-flex">
+                    <img src="https://source.unsplash.com/random/700x700/?virtual-reality"
+                        class="m-auto rounded-circle img-fluid d-none d-md-block" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPLICATION DE LA PARTIE PEDAGOGIE  -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 my-5 text-center">
+                    <h1>Notre pédagogie ?</h1>
+                    <!-- ON UTILISE DU STYLE PREDEFINIT  -->
+                    <p class="lead">Une formation orientée projet !</p>
+                    <p>
+                        Apprenez les fondamentaux avec des projets concrets. Nous sommes en contact permanenant avec des
+                        entreprises locales, vous échangerez avec des experts pour progresser rapidement dans votre
+                        apprentissage.
+                    </p>
+
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-hubspot fa-5x mb-4 text-info"></i>
+                    <p class="lead">Méthode Agile Scrum</p>
+                    <p>
+                        Apprenez à gérer votre projet et collaborez efficacement - organisez votre travail, identifiez
+                        clairement les priorités et gagnez un temps considérable.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-comments fa-5x mb-4 text-info"></i>
+                    <p class="lead">Echanges professionnels !</p>
+                    <p>
+                        Nous permettons à nos apprenants de réaliser un échange de compétences avec des entreprises
+                        locales
+                        dans le cadre de mini-projets.
+                    </p>
+                </div>
+                <p class="col-md-4 text-center">
+                    <i class="fas fa-users-cog fa-5x mb-4 text-info"></i>
+                    <p class="lead">Auto-formation !</p>
+                    <p>
+                        Notre métier est en constante mutation, mettez vous à jour régulièrement ! Via des missions,
+                        vous
+                        devrez apprendre par vous même à résoudre des problématiques.
+                    </p>
+                </p>
+            </div>
+            <div class="row text-center my-5">
+                <div class="d-sm-none d-md-block  col-md-6 d-flex flex-column">
+                    <h4 class="text-muted border border-info rounded p-3">- Pédagogie Traditionnelle -</h4>
+                    <img src="./img/pedagogie-traditionnelle-schema.jpg" alt="">
+                </div>
+                <div class="col-md-6 d-flex flex-column d-sm-none d-md-block ">
+                    <h4 class="text-muted border border-info rounded p-3">- Pédagogie ARINFO -</h4>
+                    <img src="./img/pedagogie-arinfo-schema.jpg" alt="">
+                </div>
+
+        </div>
+        </p>
+
+
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="main-footer" class=" bg-light text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Tout droits réservés &copy;
+                        <span id="year"></span> - ARINFO</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+<script>
+    // ANNÉE EN COURS
+    $('#year').text(new Date().getFullYear());
+</script>
+
+</html>

@@ -1,0 +1,323 @@
+<!-- =============================   1   ========================================================================= -->
+
+<!-- ON DEMARRE PAR CONFIGURER L'ENVIRONNEMENT/
+
+    - création du fichier index.html
+    - ajout des extensions:
+        - Live server
+        - Auto rename tag
+        - auto close tag
+        - (html boilerplate)
+    - import des images -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arinfo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="./img/logo-icone.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- =============================  2   ========================================================================= -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!-- ON AJOUT BOOTSTRAP
+        - le CSS
+        - le JS 
+    
+        ON EXPLIQUE LA MISE EN FORME DU DOCUMENT ET ON OUVRE LE GO LIVE
+    
+    -->
+</head>
+<!-- =============================   3   ========================================================================= -->
+<!-- ON CREE LA NAVBAR EN CONSULTANT LA DOCUMENTATION OFFICIELLE
+ -->
+<!-- ON EXPLIQUE LA CREATION RAPIDE DES BALISES ASSOCIEES AUX CLASSES -->
+<nav class="navbar navbar-expand-md navbar-light bg-light py-3">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <img src="./img/logo2.png" width="150px" alt="">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link text-uppercase px-3">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="company.html" class="nav-link text-uppercase px-3">Le centre de formation</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-uppercase px-3">Nos Formations</a>
+                </li>
+                <li class="nav-item border-left">
+                    <a href="#" class="nav-link text-uppercase px-3 bg-info rounded text-white">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- =============================   4   ========================================================================= -->
+<!-- ON AJOUTE LE CAROUSEL  -->
+
+<section id="slider">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- ON EXPLIQUE QU'ON PEUT AJOUTER LES INDICATEURS OU NON  -->
+
+        <!-- on ajoute les indicateurs  -->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol> -->
+        <!-- on ajoute les images et le texte avec un style particulier -->
+        <div class="carousel-inner">
+            <div class="carousel-item slider-image-1  active">
+                <div class="container">
+                    <div class="carousel-caption text-right ">
+
+
+                        <h1 class="display-3">Développeurs Web</h1>
+                        <p class="lead">Formez vous aux différents langages informatiques pour réaliser des sites web
+                            dernières générations ! </p>
+                        <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item slider-image-2">
+                <div class="container">
+                    <div class="carousel-caption text-right ">
+                        <h1 class="display-3">Designer Web</h1>
+                        <p class="lead">Formez vous aux différents logiciels de créations et devenez le futur Philippe
+                            STARCK ! </p>
+                        <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item slider-image-3">
+                <div class="container">
+                    <div class="carousel-caption text-right mb-5">
+                        <h1 class="display-3">Dessinateur bâtiment</h1>
+                        <p class="lead">Maîtrisez les différents logiciels de dessin pour la constructions bâtiments et
+                            donnez vie à vos projets ! </p>
+                        <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- on ajoute les fleche de naviguation -->
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</section>
+<!-- SERVICES / ATOUTS ARINFO -->
+<!-- ON AJOUTE FONT AWESOME EN CDN  -->
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4 text-center text-info">
+                <i class="fas fa-keyboard fa-3x mb-2"></i>
+                <h4 class="text-dark">Métiers numériques</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, placeat.</p>
+            </div>
+            <div class="col-md-3 mb-4 text-center text-info">
+                <i class="fas fa-graduation-cap fa-3x mb-2 "></i>
+                <h4 class="text-dark">Formations Certifiées</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, placeat.</p>
+            </div>
+            <div class="col-md-3 mb-4 text-center text-info">
+                <i class="fas fa-people-carry fa-3x mb-2"></i>
+                <h4 class="text-dark">Pédagogie inversée</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, placeat.</p>
+            </div>
+            <div class="col-md-3 mb-4 text-center text-info">
+                <i class="fas fa-shopping-cart fa-3x mb-2"></i>
+                <h4 class="text-dark">Vente de logiciel</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, placeat.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- TITLE  EN PARALLAX-->
+<!-- EXPLICATION DU PARALLAX -->
+<section id="e-learning" class="p-5 position-relative">
+    <div class="dark-overlay">
+        <div class="row">
+            <div class="col text-center text-white">
+                <div class="container pt-5">
+                    <h2>Entrez dans la transition numérique avec ARINFO!</h2>
+                    <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+                        reiciendis at perspiciatis mollitia impedit iusto error corrupti ducimus molestiae cum!</p>
+                    <!-- ON AJOUTE UN MODAL VIDEO  -->
+                    <!-- LE CODE JS EST TROUVÉ SUR STACKOVERFLOW -->
+
+                    <a href="#" class="video" data-video="https://www.youtube.com/embed/EAAdaSgSkug" data-toggle="modal"
+                        data-target="#videoModal">
+                        <i class="fas fa-play fa-3x text-white mt-4 p-4 rounded-circle border border-white "></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- VIDEO MODAL -->
+<div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+                <iframe src="https://www.youtube.com/embed/EAAdaSgSkug" frameborder="0" height="400" width="100%"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FORMATIONS -->
+<!-- ON AJOUTE LA STRUCTURE CLASSIQUE CONTAINER ROW COL EN JOUANT SUR LES PARTIES VISIBLES OU NON EN FONCTION DE LA TAILLE D'ECRAN -->
+<section id="courses" class="py-5 bg-light">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 align-self-center mb-2">
+                <h3>Formation Métiers du Web</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, similique.</p>
+                <a href="#" class="btn btn-outline-info btn-lg">Voir le contenu</a>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/web.jpg" alt="" class="img-fluid rounded">
+            </div>
+        </div>
+        <!-- ON AJOUTE DES PROPRIETE FLEX POUR CHANGER L'ORDRE DES  DIV  -->
+        <!-- FLEX MD ROW POUR QUE LA RANGEE RESTE DANS CE SENS POUR LES ECRANS <= MEDIUM  -->
+        <!-- FLEX COLUMN REVERSE POUR QUE L'ORDRE S'INVERSE QUAND LES DIVS PASSENT EN COLONNE  -->
+
+        <div class="row mt-5 flex-md-row flex-column-reverse">
+
+            <div class="col-md-6">
+                <img src="./img/design.jpg" alt="" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6 align-self-center mb-2">
+                <h3>Formation Métiers du Graphisme</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, similique.</p>
+                <a href="#" class="btn btn-outline-info btn-lg">Voir le contenu</a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 align-self-center mb-2">
+                <h3>Formations Métiers du Bâtiment</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, similique.</p>
+                <a href="#" class="btn btn-outline-info btn-lg">Voir le contenu</a>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/build.jpg" alt="" class="img-fluid rounded">
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-outline-info btn-lg">Voir toutes les formations ...</a>
+        </div>
+    </div>
+</section>
+<!-- TESTIMONIALS -->
+<!-- ON REFAIT UN SLIDER MAIS EN AJOUTANT DES BLOCKQUOTES -->
+<section id="testimonials" class="p-5  bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center mb-4">- Témoignages -</h2>
+        <div class="row text-center">
+            <div class="col">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/virtual.jpg" class="rounded-circle mb-2" width="100px" alt="">
+                            <blockquote class="blockquote ">
+                                <p class="mb-0 ">
+                                    " La formation m'a permis d'apprendre différents langages de programmation et de
+                                    connaitre la méthodologie de projet pour un site web. "
+                                </p>
+                                <footer class="blockquote-footer">Joachim BRASIER
+                                    <cite title="Company 1"> - Formation Développeur Web Promotion 2018</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/virtual.jpg" class="rounded-circle mb-2" width="100px" alt="">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    " J'ai reçu plusieurs élèves en stage au printemps 2017. La pédagogie exercée à
+                                    ARINFO correspond totalement à notre méthode travail "
+                                </p>
+                                <footer class="blockquote-footer">Tom COOK
+                                    <cite title="Company 1"> - APPLE</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/virtual.jpg" class="rounded-circle mb-2" width="100px" alt="">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    " Les formateurs ont été très présents tout au long de la formation. Leur
+                                    disponibilité et leur réactivité a largement contribué à l'obtention de mon diplôme
+                                    "
+                                </p>
+                                <footer class="blockquote-footer">Sophie TURNER
+                                    <cite title="Company 1">Formation Web Designer Promotion 2016</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<!-- FOOTER CLASSIQUE AVEC SCRIPT ACTUALISATION DE L'ANNEE  -->
+<footer id="main-footer" class="text-center bg-light p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Tout droits réservés &copy;
+                    <span id="year"></span> - ARINFO</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        // ANNÉE EN COURS
+        $('#year').text(new Date().getFullYear());
+
+        // AUTOPLAY & CLOSE VIDEO 
+        $(function () {
+            $(".video").click(function () {
+                var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-video"),
+                    videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.close').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
+        });
+
+
+
+    </script>
+
+</html>

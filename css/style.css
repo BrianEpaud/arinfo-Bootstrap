@@ -1,0 +1,63 @@
+.slider-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)), url("/img/image2.jpg");
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)), url("/img/image1.jpg");
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-image-3 {
+
+  background: linear-gradient(rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)), url("/img/image3.jpg");
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#e-learning {
+  min-height: 350px;
+  background: url('../img/test1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  overflow-x: hidden
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45))
+}
+
+#testimonials {
+  height: auto;
+}
+
+
+#header {
+  height: 350px;
+  background: url('../img/company.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45))
+}
